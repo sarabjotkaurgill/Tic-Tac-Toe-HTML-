@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/tic-tac-toe.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div>
+        <h1> TIC TAC TOE</h1>
+    </div>
+    <div class="chooseSign" id="chSign">
+        <b><label>Choose your Character:</label></b>
+        <br /><br>
+        <input type="radio" id="sign1" name="sign" value="X" />
+        <label>X</label>
+        <br />
+        <input type="radio" id="sign2" name="sign" value="O" />
+        <label>O</label>
+    </div>
+
+    <div id="msg"></div>
+
+    <div>
+        <button id="startButton">Start Game</button>
+    </div>
+
+    <div class="board" id="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+
+    <br>
+    <div id="msgWinner"></div>
+
+    <div>
+        <button id="restartButton">Restart Game</button>
+    </div>
+
+    <script src="js/tic-tac-toe.js"></script>
+</body>
+
+</html>
